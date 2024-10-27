@@ -1,0 +1,168 @@
+/*inserting background image for the webiste and adjusting it*/
+body{
+	background-image:url('macaronsb.png');
+	background-repeat: no-repeat;
+ 	background-size: 1540px 1000px;
+}
+
+/*NAVIGATION BAR*/
+/*using function @keyframes for animation*/
+@keyframes navi {
+  50% {color: yellow;}		/*color changes from white to yellow*/
+}
+/*for the icon and title*/
+#header{
+	display: inline;		/*to display in one line*/
+	background-color : black;
+	opacity:0.85;		/*for the transparency of the header*/
+	display: inline-block;
+	width : 93%;
+	padding: 10px 50px 10px 50px;	/*cell padding: specifies the space between the cell content and its borders*/
+	color: white;		/*font color*/
+}
+/*styling the icon in the navigation bar*/
+img{
+	display: inline-block;		/*displaying in one line*/
+	width:50px;
+	height:50px;
+}
+/*styling the title in the navigation bar*/
+#title{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-family: "Brush Script MT", cursive;
+	margin-left:70px;
+	animation: navi 3s infinite;	/*using animation @key frames function*/
+}
+/*styling account button*/
+#navi1{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:100px;
+	animation: navi 3s infinite;	/*using animation @key frames function*/
+}
+/*to style the rest of the buttons*/
+.navi2{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:50px;
+	animation: navi 3s infinite;	/*using animation @key frames function*/
+}
+
+/*REGISTERATION*/
+/*for the whole registration form*/
+#register{
+	background-color : black;
+	color: white;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;	/*font family: the tyle of font and  also using a web safe font*/
+	opacity:0.85;	
+	display: inline-block;
+	width : 23%;
+	padding: 20px 10px 20px 10px;		/*cell padding: specifies the space between the cell content and its borders*/
+	margin-top: 100px;
+	margin-left: 300px;
+}
+/*for the caption of the form*/
+#titleregister{
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 30px;
+	margin-left:50px;
+}
+/*for the text of the form*/
+#R{
+	background-color : black;
+	color: white;
+	opacity:1;
+	padding: 5px 10px 5px 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;	
+	margin-left:50px;
+	border-color: white;
+}
+a{
+	color: white;
+}
+/*the register now button*/
+.r{
+	margin-left:50px;
+}
+
+/*LOGIN*/
+/*for the whole login form*/
+#login{
+	background-color : black;
+	color: white;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	opacity:0.85;	
+	display: inline-block;
+	width : 20%;
+	padding: 20px 40px 20px 40px;
+	margin-top: 120px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+/*for the caption login*/
+#titlelogin{
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 30px;
+	margin-left:80px;
+}
+#L{
+	background-color : black;
+	color: white;
+	opacity:1;
+	padding: 5px 10px 5px 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;	
+	margin-left:90px;
+	border-color: white;
+}
+/*for the text of the form*/
+.le{
+	margin-left:50px;
+	display: inline-block;
+}
+/*for the checkbox remember me*/
+#remember{
+	font-size: 14px;
+}
+
+/*FOOTER*/
+#footer{
+	display: inline-block;
+	background-color : black;
+	color: white;
+	opacity:0.85;	
+	display: inline-block;
+	width : 93%;
+	margin-top:40px;
+	padding: 4px 50px 4px 50px;
+}
+/*for the information in the footer*/
+.f{
+	margin-left:550px;
+	display: inline-block;
+}
+#f1{
+	margin-left:600px;
+	display: inline-block;
+}
+#f2{
+	margin-left:650px;
+	display: inline-block;
+}

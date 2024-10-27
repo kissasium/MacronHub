@@ -1,0 +1,110 @@
+<!--IICT FINAL SEMESTER PROJECT-->
+<!--i210603 Hamna Rizwan & i210572 Kissa Zahra-->
+<!--Section:Z-->
+
+<!--PAGE 1: LOGIN/SIGN UP-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="f1_style.css">	<!--Linking external style sheet-->
+		<title id = "title">Macaront</title>		<!--For the name of the website-->
+		<link rel="shortcut icon" type="image/png" href="Favicon.png"/>		<!--Favicon: the small icon with the name of website-->
+
+	<!--creating a div for the header-->
+		<div id ="header"> 				<!--this header code is the same for all pages of the website-->
+			<img src="Favicon.png" alt="Icon"/>	<!--Image of the icon in the header-->
+			<div id = "title">Macaront</div>	<!--The title in the header-->
+
+		<!--Buttons for linking the pages; header is used as a navigation bar-->
+			<input type = "button" id ="navi1" value = 'Account' onClick = "location.href = 'food1.html' ">
+			<input type = "button" class = "navi2" value = 'Home' onClick = "location.href = 'food2.html' ">
+			<input type = "button" class ="navi2" value = 'Menu' onClick = "location.href = 'food3.html' ">
+			<input type = "button" class ="navi2" value = 'Deals' onClick = "location.href = 'food4.html' ">
+			<input type = "button" class ="navi2" value = 'Cart' onClick = "location.href = 'food5.html' ">
+		</div>
+	</head>
+	<body>
+	   <!--Form for registration-->	
+		<div id = "register">  <!--making a div to style the entire registration form-->
+			<form>		<!--form starting tag-->
+				<fieldset> 	 <!--to draw a box around the elements-->
+				<legend id = "titleregister">Registeration</legend> 	<!--to define a caption for the <fieldset>-->
+				<br/>
+				<div class = "r">	 <!--making a div to style the text of form-->
+				<!--taking input from user in the form of text-->
+					<label>First name:</label>
+					<br/><br/>
+					<input type = "text">
+					<br/><br/>
+					<label>Last name:</label>
+					<br/><br/>	<!--break-->
+					<input type = "text">
+					<br/><br/>
+					<label>Username:</label>
+					<br/><br/>	
+					<input type = "text">
+					<br/><br/>	<!--break-->
+					<label>Email Address:</label>
+					<br/><br/>
+					<input type = "text">
+					<br/><br/>
+					<label>Password:</label>
+					<br/><br/>	<!--break-->
+					<input type = "text">
+					<br/><br/>
+					<label>Confirm Password:</label>
+					<br/><br/>
+					<input type = "text">
+					<br/><br/>	<!--break-->
+				</div>	<!--ending div class = "r" tag-->
+			<!--button to redirect to the home page-->
+				<input type = button id = "R" onClick = "location.href = 'food2.html' " value = 'REGISTER NOW'> 
+				</fiedlset>	<!--ending fieldset tag-->
+			</form> <!--ending form tag-->
+		</div>    <!--ending div id = "register" tag-->
+		
+
+	<!--Form for loggin in-->
+		<div id = "login">	<!--making a div to style the entire log in form-->
+			<form>		<!--form starting tag-->
+				<fieldset>	<!--to draw a box around the elements-->
+				<legend id = "titlelogin">Login</legend>	<!--to define a caption for the <fieldset>-->
+				<br/>
+				<div class = "le">	<!--making a div to style the text of the form-->
+					<label>Username:</label>
+					<br/><br/>     <!--break-->
+					<input type = "text">
+					<br/><br/>
+					<label>Password:</label>
+					<br/><br/>
+					<input type = "text">
+					<br/><br/>
+
+				<!--making a div, to make the checkbox for remembering user input-->
+					<div id = "remember">
+						<input type = "checkbox"/>
+						<label>Remember me</label>
+					</div>
+				</div>		<!--ending div tag for class = "le"-->
+				<br/><br/>    <!--break-->
+
+			<!--button to redirect to the home page-->
+				<input type = button id = "L" onClick = "location.href = 'food2.html' " value = 'LOGIN'> 
+				</fiedlset>
+			 </form>
+		</div>		<!--ending div tag for id = "login"-->
+
+
+		<!--code for footer: it is the same on every page-->
+		<div id ="footer">
+	<!--elements put into one class so they can be styled all together-->
+			<div class = "f">© 2021 Macaront. All rights reserved.</div>
+			</br>
+
+	<!--put into different divs to fix alignment-->
+			<div class = "f" id = "f1">macaront@outlook.com</div>	
+			</br>
+			<div class = "f" id = "f2">@macaront</div>
+		</div>
+	</body>
+</html>

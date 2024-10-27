@@ -1,0 +1,77 @@
+<!--IICT FINAL SEMESTER PROJECT-->
+<!--i210603 Hamna Rizwan & i210572 Kissa Zahra-->
+<!--Section:Z-->
+
+<!--PAGE 2: HOME-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="f2_style.css">	<!--Linking external style sheet-->
+		<title id = "title">Macaront</title>		<!--For the name of the website-->
+		<link rel="shortcut icon" type="image/png" href="Favicon.png"/>		<!--Favicon: the small icon with the name of website-->
+
+	<!--creating a div for the header-->
+		<div id ="header"> 	<!--this header code is the same for all pages of the website-->
+			<img src="Favicon.png" alt="Icon"/>	<!--Image of the icon in the header-->
+			<div id = "title">Macaront</div>	<!--The title in the header-->
+
+		<!--Buttons for linking the pages; header is used as a navigation bar-->
+			<input type = "button" id ="navi1" value = 'Account' onClick = "location.href = 'food1.html' ">
+			<input type = "button" class = "navi2" value = 'Home' onClick = "location.href = 'food2.html' ">
+			<input type = "button" class ="navi2" value = 'Menu' onClick = "location.href = 'food3.html' ">
+			<input type = "button" class ="navi2" value = 'Deals' onClick = "location.href = 'food4.html' ">
+			<input type = "button" class ="navi2" value = 'Cart' onClick = "location.href = 'food5.html' ">
+		</div>
+	</head>
+	<body>	
+	   <!--creating a div for the head tab-->
+		<div id = "home1"><b>Our Story</b></div>
+
+	   <!--creating a div for the first image-->
+		<div id = "img1">
+			<img src="5.jpg" class = "home1" alt="Icon"/> 	<!--inserting image-->
+		</div>
+
+		<div id="grad1">	<!--creating a div to style the text with the first image-->
+			<!--using paragraph and bold tags-->
+			<p><b>
+			   The macaron is traditionally held to have been introduced in France by the Italian chef of queen Catherine de Medici during the Renaissance.
+			   Since the 19th century, a typical Parisian-style macaron is presented with a ganache, buttercream or jam filling sandwiched between two such cookies, akin to a sandwich cookie.
+			   The confection is characterized by a smooth squared top, a ruffled circumference—referred to as the "crown" or "foot" (or "pied")—and a flat base.
+			   It is mildly moist and easily melts in the mouth. Macarons can be found in a wide variety of flavours that range from traditional (raspberry, chocolate) to unusual (foie gras, matcha).
+			</b></p>
+		</div>		<!--ending grad1 tag-->
+
+		<br/><br/> 	<!--break-->
+
+		<div id = "img2">	<!--creating a div for the text with the second image-->
+			<img src="4.jpg" class = "home2" alt="Icon"/>		<!--inserting image-->
+		</div>
+
+		<div id="grad2">	<!--creating a div to style the text with the first image-->
+			<!--using paragraph and bold tags-->
+			<p><b>
+			   <i>Macaront</i> was established to pay homage to the delicate French 
+			   confectionery, the macaron. Our shops have been recognized as the connoisseurs of this delicious French pastry because of the wonderful
+                           variety of flavors from our dedicated chefs.
+			   From time-tested flavors, like Pistachio and Brownie Batter, to the seasonal and eclectic,
+		           such as Peppermint Bark and the all time favourite Galaxy-Milky Way, 
+			   our pastry chefs are dedicated to pleasing your taste buds with our delicious Macarons.
+			</b></p>
+		</div>		<!--ending grad2 tag-->
+
+
+		<!--code for footer: it is the same on every page-->
+
+		<div id ="footer">
+	<!--elements put into one class so they can be styled all together-->
+			<div class = "f">© 2021 Macaront. All rights reserved.</div>
+			</br>
+
+	<!--put into different divs to fix alignment-->
+			<div class = "f" id = "f1">macaront@outlook.com</div>	
+			</br>
+			<div class = "f" id = "f2">@macaront</div>
+		</div>
+	</body>
+</html>

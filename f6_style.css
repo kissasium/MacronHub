@@ -1,0 +1,134 @@
+/*inserting background image for the webiste and adjusting it*/
+body{
+	background-image:url('macaronsb.png');
+	background-repeat: no-repeat;
+ 	background-size: 1540px 1600px;
+}
+
+/*NAVIGATION BAR*/
+/*using function @keyframes for animation*/
+@keyframes navi {
+  50% {color: yellow;}		/*color changes from white to yellow*/
+}
+/*for the icon and title*/
+#header{
+	display: inline;		/*to display in one line*/
+	background-color : black;
+	opacity:0.85;		/*for the transparency of the header*/
+	display: inline-block;
+	width : 93%;
+	padding: 10px 50px 10px 50px;	/*cell padding: specifies the space between the cell content and its borders*/
+	color: white;		/*font color*/
+}
+/*styling the icon in the navigation bar*/
+img{
+	display: inline-block;		/*displaying in one line*/
+	width:50px;
+	height:50px;
+}
+/*styling the title in the navigation bar*/
+#title{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-family: "Brush Script MT", cursive;
+	margin-left:70px;
+	animation: navi 3s infinite;	/*using animation @key frames function*/
+}
+/*styling account button*/
+#navi1{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:100px;
+	animation: navi 3s infinite;	/*using animation @key frames function*/
+}
+/*to style the rest of the buttons*/
+.navi2{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:50px;
+	animation: navi 3s infinite;	/*using animation @key frames function*/
+}
+
+/*BODY*/
+#form{
+	background-image:url('blurmacaronsb.jpg');
+	background-repeat: no-repeat;
+	background-size: 750px 1100px;
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:400px;
+	font-size: 30px;
+	padding: 50px 50px 100px 50px;
+	margin-top: 50px; 
+}
+.order{
+	height: 50px;
+	width: 300px;
+
+}
+.order1{
+	height: 50px;
+	width: 618px;
+
+}
+.offers{
+	font-size: 15px;
+}
+.flex{
+	display: flex;
+}
+#cash{
+	font-size: 20px;
+}
+#Place{
+	background-image: linear-gradient(to right,coral , #ffcccc);
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left: 450px;
+	width: 200px;
+	height: 30px;
+}
+#continue{
+	background-image: linear-gradient(to right,coral , #ffcccc);
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left: 450px;
+	width: 230px;
+	height: 30px;
+}
+
+/*FOOTER*/
+#footer{
+	display: inline-block;
+	background-color : black;
+	color: white;
+	opacity:0.85;	
+	display: inline-block;
+	width : 93%;
+	margin-top:40px;
+	padding: 4px 50px 4px 50px;
+}
+/*for the information in the footer*/
+.f{
+	margin-left:550px;
+	display: inline-block;
+}
+#f1{
+	margin-left:600px;
+	display: inline-block;
+}
+#f2{
+	margin-left:650px;
+	display: inline-block;
+}

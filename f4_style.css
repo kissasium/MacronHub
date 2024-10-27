@@ -1,0 +1,234 @@
+/*same code for header and footer throughout the website*/
+body{
+	background-image:url('macaronsb.png');
+	background-repeat: no-repeat;
+ 	background-size: 1540px 1610px;
+}
+/*NAVIGATION BAR*/
+@keyframes navi {
+  50% {color: yellow;}
+}
+#header{
+	display: inline;
+	background-color : black;
+	opacity:0.85;	
+	display: inline-block;
+	width : 93%;
+	padding: 10px 50px 10px 50px;
+	color: white;
+}
+img{
+	display: inline-block;
+	width:50px;
+	height:50px;
+}
+#title{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-family: "Brush Script MT", cursive;
+	margin-left:70px;
+	animation: navi 3s infinite;
+}
+#navi1{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:100px;
+	animation: navi 3s infinite;
+}
+.navi2{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:50px;
+	animation: navi 3s infinite;
+}
+/*BODY*/
+.flex-container {
+  	display: flex;
+}
+
+.flex-container > div {
+	margin-left:0px;
+}
+
+#flatOff{
+	display: inline-block;
+	background-image:url('sale1.jpg');
+  	background-color: coral;
+	padding: 2px 2px 2px 2px;
+	margin-top:30px;
+	animation: mymove 5s infinite;
+	width: 500px;
+	height: 500px;
+
+}
+#box{
+	background-color: coral;
+	margin-top: 170px;
+	width: 480px;
+	height: 105px;
+}
+#p{
+	color: white;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: px;
+	animation: mytext 5s infinite ;
+}
+@keyframes mymove {
+  50% {box-shadow: 20px 30px 30px #cc99ff;}
+}
+@keyframes mytext {
+  50% {font: 28px bold;}
+}
+/*#80ff80 =green */
+.deal1{
+	display: inline-block;
+  	background-color: #80ff80;
+	padding: 5px 5px 5px 5px;
+	margin-top:120px;
+	margin-left:200px;
+	width: 500px;
+	height: 400px;
+}
+#box1{
+	background-color: #80ff80;
+	margin-top: 10px;
+	margin-left: 700px;
+	width: 500px;
+	height: 160px;
+	padding: 5px 5px 5px 5px;
+	background-image: linear-gradient(to right, #80ff80 , #009900);
+}
+#p1{
+	color: black;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.deal2{
+	display: inline-block;
+  	background-color:#cc0000;
+	padding: 5px 5px 5px 5px;
+	margin-top:50px;
+	margin-left:100px;
+	width: 400px;
+	height: 300px;
+	background-image: linear-gradient(to right, coral , #ffcccc);
+
+}
+.deal3{
+	display: inline-block;
+  	background-color: #cc0000;
+	padding: 5px 5px 5px 5px;
+	margin-top:50px;
+	margin-left:450px;
+	width: 400px;
+	height: 300px;
+	background-image: linear-gradient(to right, coral , #ffcccc);
+
+}
+#box2{
+	display: inline-block;
+	background-color: #cc0000;
+	background-image: linear-gradient(to right, coral , #ffcccc);
+}
+#p2{
+	color: black;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#box3{
+	display: inline-block;
+	background-color: #cc0000;
+	margin-top: 10px;
+	margin-left: 453px;
+	width: 400px;
+	height: 115px;
+	background-image: linear-gradient(to right, coral , #ffcccc);
+}
+#p3{
+	color: black;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.flex{
+  	display: flex;
+}
+
+.flex > div{
+	margin-top:10px;
+	margin-left:100px;
+	width: 400px;
+	height: 210px;
+	padding: 5px 5px 5px 5px;
+}
+#cart{
+	background-color :#7B68EE;
+	color: 	#FFD700;
+	font-family: "Lucida Console", "Courier New", monospace;
+	opacity:0.70;
+	margin-left: 20px;
+	background-color: #C71585;
+ 	animation: addtocart 3s infinite;
+}
+@keyframes addtocart {
+  from {background-color: #C71585;}
+  to {background-color:  #7B68EE;}
+}
+/*CART*/
+#gotocart{
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:1150px;
+}
+#go_to{
+	display: inline-block;
+	background-color :black;
+	font-family: "Brush Script MT", cursive;
+	font-size:30px;
+	color: white;
+	width:200px;
+	height:40px;
+}
+img.cart1{
+	display: inline-block;
+	width:60px;
+	height:60px;
+}
+/*FOOTER*/
+#footer{
+	display: inline-block;
+	background-color : black;
+	color: white;
+	opacity:0.85;	
+	width : 93%;
+	padding: 4px 50px 4px 50px;
+}
+.f{
+	margin-left:550px;
+	display: inline-block;
+}
+#f1{
+	margin-left:600px;
+	display: inline-block;
+}
+#f2{
+	margin-left:650px;
+	display: inline-block;
+}

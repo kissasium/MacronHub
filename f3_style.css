@@ -1,0 +1,317 @@
+/*same code for header and footer throughout the website*/
+body{
+	background-image:url('macaronsb.png');
+	background-repeat: no-repeat;
+ 	background-size: 1540px 1500px;
+}
+/*NAVIGATION BAR*/
+@keyframes navi {
+  50% {color: yellow;}
+}
+#header{
+	display: inline;
+	background-color : black;
+	opacity:0.85;	
+	display: inline-block;
+	width : 93%;
+	padding: 10px 50px 10px 50px;
+	color: white;
+}
+img{
+	display: inline-block;
+	width:50px;
+	height:50px;
+}
+#title{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-family: "Brush Script MT", cursive;
+	margin-left:70px;
+	animation: navi 3s infinite;
+}
+#navi1{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:100px;
+	animation: navi 3s infinite;
+}
+.navi2{
+	display: inline-block;
+	background-color : black;
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:50px;
+	animation: navi 3s infinite;
+}
+
+/*BODY*/
+/*for the alignment, used throughout*/
+.flex{
+  	display: flex;
+}
+.flex-container{
+  	display: flex;
+}
+
+.flex-container > div{
+	margin-top: 50px;
+}
+/*for the menu tab*/
+#menu{
+	background-color :#bb99ff ;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+	padding: 10px 20px 10px 20px;
+	color: black;
+	font-size: 30px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	opacity:0.85;	
+	margin-left:30px;
+	margin-top:20px;
+	width : 93%;	
+	text-align: center;
+}
+/*for the images of the items*/
+.img1{
+	display: inline-block;
+	background-color : #cc99ff;
+	background-image: linear-gradient(to right, coral , #ffcccc);
+	padding: 5px 10px 5px 5px;
+	margin-left:100px;
+	margin-top:50px;
+	width : 10%;
+}
+img.menu1{
+	display: inline-block;
+	margin-left:3px;
+	margin-top:10px;
+	width : 150px;
+	height : 150px;
+}
+/*and the description*/
+#grad_m1{
+	display: inline-block;
+	border: solid white;
+	height: 250px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#grad_m2{
+	display: inline-block;
+	border: solid white;
+	height: 260px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#grad_m3{
+	display: inline-block;
+	border: solid white;
+	height: 260px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:100px;
+	margin-left:90px;
+	width :10%;
+}
+#grad_m4{
+	display: inline-block;
+	border: solid white;
+	height: 250px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#grad_m5{
+	display: inline-block;
+	border: solid white;
+	height: 250px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#cart{
+	background-color :#7B68EE;
+	color: 	#FFD700;
+	font-family: "Lucida Console", "Courier New", monospace;
+	opacity:0.70;
+	margin-left: 20px;
+	background-color: #C71585;
+ 	animation: addtocart 3s infinite;
+}
+@keyframes addtocart {				/*using @keyframes function to change the colors of the add to cart*/
+  from {background-color: #C71585;}
+  to {background-color:  #7B68EE;}
+}
+.name{
+	color: white;
+	font-size: 13px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left: 30px;
+}
+#name1{
+	color: white;
+	font-size: 13px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left: 25px;
+}
+.price{
+	color: white;
+	font-size: 13px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left: 30px;
+}
+#grad_m6{
+	display: inline-block;
+	border: solid white;
+	height: 260px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#grad_m7{
+	display: inline-block;
+	border: solid white;
+	height: 290px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+/*#FFDAB9*/
+#grad_m8{
+	display: inline-block;
+	border: solid white;
+	height: 285px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right,  coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#grad_m9{
+	display: inline-block;
+	border: solid white;
+	height: 270px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right, coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#grad_m10{
+	display: inline-block;
+	border: solid white;
+	height: 290px;
+  	background-color: #cc99ff;
+ 	background-image: linear-gradient(to right,   coral , #ffcccc);
+ 	color: black;
+	padding : 0px 10px 5px 10px;
+	font-size: 11px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:90px;
+	margin-top:50px;
+	width :10%;
+}
+#gotocart{
+	font-size: 30px;
+	opacity:1.0;
+	color: white;
+	font-family: "Brush Script MT", cursive;
+	padding: 10px 20px 10px 20px;
+	margin-left:1150px;
+	margin-top:2px;
+}
+#go_to{
+	display: inline-block;
+	background-color :black;
+	font-family: "Brush Script MT", cursive;
+	font-size:30px;
+	color: white;
+	width:200px;
+	height:40px;
+}
+img.cart1{
+	display: inline-block;
+	width:60px;
+	height:60px;
+}
+/*FOOTER*/
+#footer{
+	display: inline-block;
+	background-color : black;
+	color: white;
+	opacity:0.85;	
+	display: inline-block;
+	width : 93%;
+	padding: 4px 50px 4px 50px;
+	margin-top: 10px;
+}
+.f{
+	margin-left:550px;
+	display: inline-block;
+}
+#f1{
+	margin-left:600px;
+	display: inline-block;
+}
+#f2{
+	margin-left:650px;
+	display: inline-block;
+}

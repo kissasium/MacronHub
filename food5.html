@@ -1,0 +1,78 @@
+<!--IICT FINAL SEMESTER PROJECT-->
+<!--i210603 Hamna Rizwan & i210572 Kissa Zahra-->
+<!--Section:Z-->
+
+<!--PAGE 5: CART-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="f5_style.css">	<!--Linking external style sheet-->
+		<title id = "title">Macaront</title>		<!--For the name of the website-->
+		<link rel="shortcut icon" type="image/png" href="Favicon.png"/>		<!--Favicon: the small icon with the name of website-->
+
+	<!--creating a div for the header-->
+		<div id ="header"> 	<!--this header code is the same for all pages of the website-->
+			<img src="Favicon.png" alt="Icon"/>	<!--Image of the icon in the header-->
+			<div id = "title">Macaront</div>	<!--The title in the header-->
+
+		<!--Buttons for linking the pages; header is used as a navigation bar-->
+			<input type = "button" id ="navi1" value = 'Account' onClick = "location.href = 'food1.html' ">
+			<input type = "button" class = "navi2" value = 'Home' onClick = "location.href = 'food2.html' ">
+			<input type = "button" class ="navi2" value = 'Menu' onClick = "location.href = 'food3.html' ">
+			<input type = "button" class ="navi2" value = 'Deals' onClick = "location.href = 'food4.html' ">
+			<input type = "button" class ="navi2" value = 'Cart' onClick = "location.href = 'food5.html' ">
+		</div>
+	</head>
+	<body>	
+		<div id = "cart">		<!--creating a div to style the cart layout-->
+			<div id = "font">Cart</div>	<!--to style the heading-->
+			<br/><br/>
+
+		<!--divs to style items-->
+			<div id = "item">Suprise me-Box of 24
+					<br/><br/>
+					$66</div>
+			<img src="cartbutton.jpg" class = "item" alt="Icon"/>		<!--inserting amount image-->
+
+			<br/><br/><br/>		<!--breaks-->
+			<div id = "item">Box of 6
+					<br/><br/>	<!--breaks-->
+					$16</div>
+			<img src="cartbutton.jpg" class = "item1" alt="Icon"/>		<!--inserting amount image-->
+			
+			<br/><br/><br/>		<!--breaks-->
+			<div id = "item">Pistachio
+					<br/><br/>	<!--breaks-->
+					$1.99</div>
+			<img src="cartbutton.jpg" class = "item2" alt="Icon"/>		<!--inserting amount image-->
+
+			<br/><br/><br/>		<!--breaks-->
+			<div id = "item">Family deal
+					<br/><br/>
+					$30</div>
+			<img src="cartbutton.jpg" class = "item3" alt="Icon"/>		<!--inserting amount image-->
+
+			<br/><br/><br/><br/><br/>		<!--breaks-->
+			<div id = "item">Total:</div>
+			<div id = "total">$113.99</div>
+		</div>		<!--ending id = "cart" tag-->
+
+		<!--code for go to payment page button-->	
+		<div id = "gotopayment">
+				<img src="paymenticon.jpg" alt="Icon" class = "cart1"/>		<!--inserting icon image for the button-->
+				<input type = "button" id = "go_to" value = 'Checkout' onClick = "location.href = 'food6.html' ">	<!--button redirects to payment page-->
+		</div>
+	
+		<!--code for footer: it is the same on every page-->
+		<div id ="footer">
+	<!--elements put into one class so they can be styled all together-->
+			<div class = "f">© 2021 Macaront. All rights reserved.</div>
+			</br>
+
+	<!--put into different divs to fix alignment-->
+			<div class = "f" id = "f1">macaront@outlook.com</div>	
+			</br>
+			<div class = "f" id = "f2">@macaront</div>
+		</div>
+	</body>
+</html>

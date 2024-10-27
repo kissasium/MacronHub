@@ -1,0 +1,115 @@
+<!--IICT FINAL SEMESTER PROJECT-->
+<!--i210603 Hamna Rizwan & i210572 Kissa Zahra-->
+<!--Section:Z-->
+
+<!--PAGE 6: PAYMENT-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="f6_style.css">	<!--Linking external style sheet-->
+		<title id = "title">Macaront</title>		<!--For the name of the website-->
+		<link rel="shortcut icon" type="image/png" href="Favicon.png"/>		<!--Favicon: the small icon with the name of website-->
+
+	<!--creating a div for the header-->
+		<div id ="header"> 	<!--this header code is the same for all pages of the website-->
+			<img src="Favicon.png" alt="Icon"/>	<!--Image of the icon in the header-->
+			<div id = "title">Macaront</div>	<!--The title in the header-->
+
+		<!--Buttons for linking the pages; header is used as a navigation bar-->
+			<input type = "button" id ="navi1" value = 'Account' onClick = "location.href = 'food1.html' ">
+			<input type = "button" class = "navi2" value = 'Home' onClick = "location.href = 'food2.html' ">
+			<input type = "button" class ="navi2" value = 'Menu' onClick = "location.href = 'food3.html' ">
+			<input type = "button" class ="navi2" value = 'Deals' onClick = "location.href = 'food4.html' ">
+			<input type = "button" class ="navi2" value = 'Cart' onClick = "location.href = 'food5.html' ">
+		</div>
+	</head>
+	<body>	
+		<!--Form for placing order-->
+		<div id = "form"> 	<!--div used to style all elements-->
+			<form>  	<!--form starts-->	
+			   <!--Asking user details to place order-->
+			   <!--Placeholder is used to show text in the input box-->
+			
+			<!--Asking user for their contact information-->
+				<label>Contact information</label>
+
+				<br/><br/>	<!--break so the next input box is in the next line-->
+			<!--Asking phone number-->
+				<input type = "text" class = "order" placeholder = "Phone number">
+				<br/>
+				<input type = "checkbox"/>
+				<label class = "offers">Text me with news and offers</label>
+				<br/><br/>
+
+			<!--Asking email address-->
+				<input type = "text" class = "order" placeholder = "Email"> <!--Putting input boxes in one class called order for styling-->
+				<br/>
+				<input type = "checkbox"/>	<!--Checkbox button for email offers -->
+				<label class = "offers">Email me with news and offers</label> <!--Putting input boxes in one class called order  for styling-->
+				<br/><br/> <!--break so the next input box is in the next line-->
+
+			<!--Asking user for shipping address-->
+
+				<label>Shipping Address</label>
+				<br/><br/> <!--break-->
+
+				<input type = "text" class = "order" placeholder = "First name"> <!--Putting all input boxes in one class called order for styling-->
+				<input type = "text" class = "order" placeholder = "Last name">
+				<br/><br/> <!--break so the next input box is in the next line-->
+				<input type = "text" class = "order1" placeholder = "Company(optional)"> <!--Putting input boxes in one different class for styling; a different class used to align the width of all boxes-->
+				<br/><br/> 
+				<input type = "text" class = "order1" placeholder = "Address"> <!--Putting input boxes in one class called order1 for styling to adjust width-->
+				<br/><br/>
+
+			<!--drop down menu to select country-->
+
+				<label for="Country">Select Country/Region:</label>
+			<!--only one option as macaront only exists in the united states-->
+					<select name="country">
+ 						   <option value="United States">United States</option>
+					 </select>
+				 <br/><br/>              <!--break-->
+
+			<!--drop down menu to select city-->
+				<label for="City">Select City:</label>
+			<!--Multiple options available -->
+					  <select name="country">
+ 						   <option value="New York City">New York City</option>
+					    	   <option value="Los Angeles">Los Angeles</option>
+						   <option value="New Jersey">New Jersey</option>
+						   <option value="Washington">Washington</option>
+						   <option value="Florida">Florida</option>
+					  </select>
+				  <br/><br/>
+
+			<!--Asking user their payment information-->	
+				<label>Payment information</label>
+				<br/><br/>	<!--break-->		
+			<!--Card number-->		
+				<input type = "text" class = "order1" placeholder = "Card number">
+				<br/><br/>     <!--break-->
+
+			<!--CVV-->
+				<input type = "text" class = "order1" placeholder = "CVV">
+				<br/><br/>	<!--break-->
+
+			<!--Button to place order: when pressed the page redirects to home page-->
+
+				<input type = "button" id ="Place" value = 'Place and Order' onClick = "location.href = 'food2.html' ">
+
+				</form>		<!--form ends-->
+			</div>		<!--div ending tag-->
+	
+	<!--code for footer: it is the same on every page-->
+		<div id ="footer">
+	<!--elements put into one class so they can be styled all together-->
+			<div class = "f">© 2021 Macaront. All rights reserved.</div>
+			</br>
+
+	<!--put into different divs to fix alignment-->
+			<div class = "f" id = "f1">macaront@outlook.com</div>	
+			</br>
+			<div class = "f" id = "f2">@macaront</div>
+		</div>
+	</body>
+</html>

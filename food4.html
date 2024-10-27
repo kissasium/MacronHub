@@ -1,0 +1,91 @@
+<!--IICT FINAL SEMESTER PROJECT-->
+<!--i210603 Hamna Rizwan & i210572 Kissa Zahra-->
+<!--Section:Z-->
+
+<!--PAGE 4: DEALS-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="f4_style.css">	<!--Linking external style sheet-->
+		<title id = "title">Macaront</title>		<!--For the name of the website-->
+		<link rel="shortcut icon" type="image/png" href="Favicon.png"/>		<!--Favicon: the small icon with the name of website-->
+
+	<!--creating a div for the header-->
+		<div id ="header"> 	<!--this header code is the same for all pages of the website-->
+			<img src="Favicon.png" alt="Icon"/>	<!--Image of the icon in the header-->
+			<div id = "title">Macaront</div>	<!--The title in the header-->
+
+		<!--Buttons for linking the pages; header is used as a navigation bar-->
+			<input type = "button" id ="navi1" value = 'Account' onClick = "location.href = 'food1.html' ">
+			<input type = "button" class = "navi2" value = 'Home' onClick = "location.href = 'food2.html' ">
+			<input type = "button" class ="navi2" value = 'Menu' onClick = "location.href = 'food3.html' ">
+			<input type = "button" class ="navi2" value = 'Deals' onClick = "location.href = 'food4.html' ">
+			<input type = "button" class ="navi2" value = 'Cart' onClick = "location.href = 'food5.html' ">
+		</div>
+	</head>
+	<body>
+		<div  class="flex-container">   <!--creating a div to apply display:flex-->
+			<div id="flatOff">  		<!--creating a div to style the animated deal offer-->
+				<div id = "box">	 <!--to style the text in the box-->
+				 <!--using paragraph, divs and bold tags-->
+ 					<p id = "p"><b>SPECIAL HOLIDAY OFFER! <br/>
+				    		    GET OUR FAMILY DEAL TODAY!<br/>
+						    NOW 30% OFF	</b></p>
+				</div>
+		
+			</div> 		 <!--ending flatOff tag-->
+
+			<img src="familydeal.jpg" alt="Icon" class = "deal1"/> 		 <!--inserting christmas deal image-->
+		</div>		 <!--ending flex.container tag-->
+
+		<!--div for description of christmas/family deal-->
+		<div id = "box1">
+			<p id = "p1"><b>Serve these stunning macarons for dessert after
+			 	 Christmas dinner all included in our special holiday offer.<br/><br/>
+				 Now a box of 24 for only $30!<br/>
+				 Get yours today!</b></p>
+			<button type = "button" id = "cart"><b>Add To Cart</b></button>		 <!--static button-->
+		</div>
+
+		<!--inserting images of other 2 deals-->
+			<img src="deal2.jpg" alt="Icon" class = "deal2"/>
+			<img src="deal3.jpg" alt="Icon" class = "deal3"/>
+
+		<div class = "flex">		 <!--div to use display:flex to align the description of deals-->
+			<div id = "box2">
+				<p id = "p2"><b>Want to try something new?</br>
+		   				Too difficult to choose? Leave that to us!</br>
+						With this Suprise Me deal you get to try 24 <i>different</i> flavors, just for $66!<br/>
+						<br/>
+						Suprise me-Box of 24<br/>
+						$66</b><p>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>		 <!--static button-->
+			</div>
+			<div id = "box3">
+				<p id = "p3"><b>Get your favourite macarons in a box of 6!<br/>
+						 Box of 6<br/>
+						 $16</b><p>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>		 <!--static button-->
+			</div>
+		</div>     <!-- ending tag for flex-->
+
+			<!--code for go to cart button-->
+			<br/><br/>		<!--break-->
+				<div id = "gotocart">
+					<img src="carticon.jpg" alt="Icon" class = "cart1"/> 	<!--inserting icon image for the button-->
+					<input type = "button"id = "go_to" value = 'Go To Cart' onClick = "location.href = 'food5.html' "> 	<!--button redirects to cart page-->
+				</div>
+
+		<!--code for footer: it is the same on every page-->
+		<div id ="footer">
+	<!--elements put into one class so they can be styled all together-->
+			<div class = "f">© 2021 Macaront. All rights reserved.</div>
+			</br>
+
+	<!--put into different divs to fix alignment-->
+			<div class = "f" id = "f1">macaront@outlook.com</div>	
+			</br>
+			<div class = "f" id = "f2">@macaront</div>
+		</div>
+	</body>
+</html>

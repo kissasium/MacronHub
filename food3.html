@@ -1,0 +1,252 @@
+<!--IICT FINAL SEMESTER PROJECT-->
+<!--i210603 Hamna Rizwan & i210572 Kissa Zahra-->
+<!--Section:Z-->
+
+<!--PAGE 3: MENU-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="f3_style.css">	<!--Linking external style sheet-->
+		<title id = "title">Macaront</title>		<!--For the name of the website-->
+		<link rel="shortcut icon" type="image/png" href="Favicon.png"/>		<!--Favicon: the small icon with the name of website-->
+
+	<!--creating a div for the header-->
+		<div id ="header"> 	<!--this header code is the same for all pages of the website-->
+			<img src="Favicon.png" alt="Icon"/>	<!--Image of the icon in the header-->
+			<div id = "title">Macaront</div>	<!--The title in the header-->
+
+		<!--Buttons for linking the pages; header is used as a navigation bar-->
+			<input type = "button" id ="navi1" value = 'Account' onClick = "location.href = 'food1.html' ">
+			<input type = "button" class = "navi2" value = 'Home' onClick = "location.href = 'food2.html' ">
+			<input type = "button" class ="navi2" value = 'Menu' onClick = "location.href = 'food3.html' ">
+			<input type = "button" class ="navi2" value = 'Deals' onClick = "location.href = 'food4.html' ">
+			<input type = "button" class ="navi2" value = 'Cart' onClick = "location.href = 'food5.html' ">
+		</div>
+	</head>
+	<body>	
+		<!--creating a div for the head tab-->
+		<!--using bold tags-->
+		<div id = "menu"><b>Menu</b></div>
+
+		<div class = "flex">			<!--creating a div to use display:flex (to align in one line)-->
+			<!--inserting pictures of the items in divs class = "img1" to set their alignment-->	
+			<div class = "img1">	
+				<img src="birthday.jpeg" class = "menu1" alt="Icon"/>
+			</div>	
+			<div class = "img1">
+				<img src="brownie.jpeg" class = "menu1" alt="Icon"/>
+			</div>	
+			<div  class = "img1">
+				<img src="pistachio.jpeg" class = "menu1" alt="Icon"/>
+			</div>
+			<div  class = "img1">
+				<img src="coconut.jpeg" class = "menu1" alt="Icon"/>
+			</div>
+			<div  class = "img1">
+				<img src="cottoncandy.jpeg" class = "menu1" alt="Icon"/>
+			</div>
+		</div>		<!--ending tag of flex-->
+		<div class = "flex-container">	<!--creating a div to use display:flex (to align in one line)-->
+
+		<!--creating a divs for the description of the items-->
+		<!--using paragraph and bold tags-->
+		<!--Adding static buttons for the add to cart option-->
+			<div id="grad_m1">
+				<p class = "name"><b>
+					Birthday
+					</b></p>
+				<p class = "price"><b>
+					 $2.25
+					</b></p>
+				<p><b>
+				   Treat everyday like it's your birthday with this macaron! It's vanilla funfetti buttercream flavoring,
+				   squeezed between two funfetti cakes,
+		       		   the gluten-free treat offers a classic taste that’s sure to make you feel like a kid again.
+				</b></p>
+				<br/>	 <!--break-->
+				<button type = "button" id = "cart"><b>Add To Cart</b></button> 	<!--static button-->
+			</div>
+			<div id="grad_m2">
+				<p id = "name1"><b>
+					Brownie Batter
+					</b></p>
+				<p class = "price"><b>
+					    $1.99
+				</b></p>
+				<p><b>
+			 	  Warm brownies on a chilly day always hit the spot.  
+			  	 If this has you fantasizing of brownies, join the crowd! 
+			   	Here at Macaront, we take our velvety smooth fudgy ganache and combine
+			   	it with our brownie batter to give you the ultimate taste of chocolatey goodness.
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>		 <!--static button-->
+			</div>
+			<div id="grad_m3">
+				<p class = "name"><b>
+					Pistachio
+					</b></p>
+				<p class = "price"><b>
+                                 	 $1.99
+					</b></p>
+				<p><b>
+			  	 We’ve imported our pistachios in from France which we use to make our most authentic pistachio paste.
+			  	 We combine it with our rich buttercream and sandwich it between two emerald green macaron shells. 
+			  	 </b></p>	
+			  	 <p><b>
+			  	 PISTACHIOS...Yum!
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+			<div id="grad_m4">
+				<p class = "name"><b>
+					Coconut Cake
+					</b></p>
+				<p class = "price"><b>
+				   $2.25	
+					</b></p>
+				<p><b>
+				  Our coconut-infused macaron contains a plain white shell covered in coconut shavings and 
+				 filled with a buttercream filling filled with coconut.
+				 Our buttercream filling contains coconut cream, coconut milk, and coconut puree. 
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+			<div id="grad_m5">
+				<p class = "name"><b>
+					Cotton Candy
+				</b></p>
+				<p class = "price"><b>
+					   $1.99
+				</b></p>
+				<p><b>
+			 	  This colorful cookie contains pink and blue shells to match the classic colors of a hand-spun fluffy cotton candy 
+			  	 packed in a small little bite-size macaron. 
+			  	 A cotton candy-infused buttercream center brings it all together perfectly. 
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+		</div>		<!--ending flex.container div-->
+		<div class = "flex">	<!--using same class as before for display:flex (to align the images)-->
+			<div class = "img1">
+				<img src="creme.jpeg" class = "menu1" alt="Icon"/>
+			</div>	
+			<div class = "img1">
+				<img src="ferrero.jpeg" class = "menu1" alt="Icon"/>
+			</div>	
+			<div class = "img1">
+					<img src="galaxy.jpeg" class = "menu1" alt="Icon"/>
+			</div>
+			<div class = "img1">
+				<img src="pebble.jpeg" class = "menu1" alt="Icon"/>
+			</div>
+			<div class = "img1">
+				<img src="smores.jpeg" class = "menu1" alt="Icon"/>
+			</div>	
+		</div>		<!--ending flex tag-->
+
+	<!--using same tags and styles as above-->
+		<div class = "flex-container">
+			<div id="grad_m6">
+				<p class = "name"><b>
+					Crème brûlée
+				</b></p>
+				<p class = "price"><b>
+					   $2.25
+				</b></p>
+				<p><b>
+				  The French really know how to make dessert.
+				  Our take on the classic custard contains a beautiful golden shell filled with vanilla
+				  white chocolate ganache and mixed with burned butter caramel. 
+			 	 Our French inspired macaron is the crème de la crème!
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+			<div id="grad_m7">
+				<p id = "name1"><b>
+					Ferrero Rocher
+				</b></p>
+				<p class = "price"><b>
+					    $2.25
+				</b></p>
+				<p><b>
+				  The ultimate macaron for Ferrero Rocher lovers!  
+				  In this macaron we’ve bundled a chunk of a chocolate-hazelnut crisp wafer and surrounded
+				 it with our, oh so, creamy hazelnut chocolate ganache.
+				 We took it to the next level by wrapping it all up for you in a golden, flaky, and sweet macaron shell. 
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+			<div id="grad_m8">
+				<p id = "name1"><b>
+					Galaxy - Milky Way
+				</b></p>
+				<p class = "price"><b>
+					     $2.69
+				</b></p>
+				<p><b>
+				   This cosmic shell is made with a swirled black and purple mix, sprinkled with edible stars, and dusted with an iridescent glitter to give it that out of this
+				   world appearance. What’s in the middle? 
+				   Oh yeah, a GIANT chunk of a Milky Way bar surrounded by our delicious chocolate ganache. 
+				   </b></p>	
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+			<div id="grad_m9">
+				<p class = "name"><b>
+					Fruity Pebble
+				</b></p>
+				<p class = "price"><b>
+					   $1.99
+				</b></p>
+				<p><b>
+				  Take a walk down memory lane by bringing out the kid in you with one of our Fruity Pebble Macarons.
+				  A gluten-free treat with Fruity-Pebble-infused buttercream filling, 
+				  the soft shells painted in a loud shade of pink & green are sure to take you back.
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+			<div id="grad_m10">
+				<p class = "name"><b>
+					S'mores
+				</b></p>
+				<p class = "price"><b>
+					 $2.25
+				</b></p>
+				<p><b>
+			  	Bring home the memories with the taste of these delicious treats inspired by your campfire favorites.  
+			  	Chocolate chunk and graham cracker bits combined with our warm marshmallow fluff, inside of a charcoal black macaron;
+			  	need we say more? Well just in case, we then toast it and give it that nice campfire taste.  
+				</b></p>
+				<br/>
+				<button type = "button" id = "cart"><b>Add To Cart</b></button>
+			</div>
+		</div> 	<!--ending flex.container tag-->
+
+	<!--code for go to cart button-->
+			<br/><br/>		<!--break-->
+				<div id = "gotocart">
+					<img src="carticon.jpg" alt="Icon" class = "cart1"/> 	<!--inserting icon image for the button-->
+					<input type = "button"id = "go_to" value = 'Go To Cart' onClick = "location.href = 'food5.html' "> 	<!--button redirects to cart page-->
+			</div>
+
+
+		<!--code for footer: it is the same on every page-->
+		<div id ="footer">
+	<!--elements put into one class so they can be styled all together-->
+			<div class = "f">© 2021 Macaront. All rights reserved.</div>
+			</br>
+
+	<!--put into different divs to fix alignment-->
+			<div class = "f" id = "f1">macaront@outlook.com</div>	
+			</br>
+			<div class = "f" id = "f2">@macaront</div>
+		</div>
+	</body>
+</html>
